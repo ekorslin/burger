@@ -1,0 +1,27 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Using MySQL, Node, Express, Handlebars, and a homemade ORM, I've built the perfect app for burger enthusiasts and foodies everywhere.  Eat-Da-Burger serves as a bucket list, of sorts, for its users to more easily remember the names of those mouth-watering burgers that have crossed their minds in recent past.  It even features an option to check off those burgers the user has had a chance to devour, reminding them of those they've yet to try.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekorslin/burger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekorslin/burger/issues"
+  },
+  "homepage": "https://github.com/ekorslin/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.12",
+    "mysql": "^2.16.0"
+  }
+}
