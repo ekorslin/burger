@@ -75,7 +75,8 @@ var orm = {
     var queryString = "UPDATE burgers";
 
     queryString += " SET ";
-    queryString += objToSql(objColVals);
+    queryString += " devoured=true ";
+    // queryString += objToSql(objColVals);
     queryString += " WHERE ";
     queryString += condition;
 
