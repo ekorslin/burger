@@ -16,7 +16,7 @@ If a user wishes to clone the app locally, it is recommended that the user insta
 ### Setting up your MySQL database from terminal:
 1.  Start MySQL command line tool and login: `mysql -u root -p`.
 2.  With the `mysql>` command line tool running, enter the command `source schema.sql`. This will run your schema file and all of the queries in it -- in other words, you'll be creating your database.
-3.  Now insert the entries you defined in `seeds.sql` by running the file: `source seeds.sql`.
+3.  Now insert the entries that have pre-defined for you in `seeds.sql` by running the file: `source seeds.sql`.
 4.  Close out of the MySQL command line tool: `exit`.
 
 #### Also remember!
