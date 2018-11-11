@@ -24,15 +24,18 @@ h4 {
     text-align: center;
     font-family: 'Archivo Black', sans-serif;
     text-decoration: underline;
+    text-shadow: 2px 2px 4px gray;
 }
 
 p {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 4px gray;
 }
 
 .card {
     margin: 0 auto;
+    background-color: black;
 }
 
 li {
@@ -40,5 +43,10 @@ li {
 }
 
 .border-right {
-    border-right: 1px solid black;
+    border-right: 1px dashed lightgrey;
+    border-top: 1px dashed lightgrey;
+}
+
+.border-left {
+    border-top: 1px dashed lightgrey;
 }

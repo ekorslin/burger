@@ -4,8 +4,8 @@
   <img src="/assets/images/burger.png" width="400px" id="burger"/>
 <div class="row">
 <div class="col-sm-1"></div>
-<div class="col-sm-5 border-right">
-<h4>To devour...</h4></br>
+<div class="col-sm-5 border-right"><br/>
+<h4>To devour...</h4><br/>
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
@@ -14,8 +14,8 @@
   {{/each}}
 </ul></br>
 </div>
-<div class="col-sm-5">
-<h4>...Devoured!!</h4></br>
+<div class="col-sm-5 border-left"><br/>
+<h4>...Devoured!!</h4><br/>
 <ul>
   {{#each burgers}}
     {{#if devoured}}
@@ -36,7 +36,7 @@
     <input type="text" id="ca" burger_name="burger_name">
   </div>
 
-  <button type="submit">Add a Burger</button>
+  <button class="btn btn-dark" type="submit">Add a Burger</button>
 </form></br>
 </div>
 
