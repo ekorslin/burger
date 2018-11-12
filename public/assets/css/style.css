@@ -35,7 +35,9 @@ p {
 
 .card {
     margin: 0 auto;
-    background-color: black;
+    border: 1px solid black;
+    border-radius: 0 px;
+
 }
 
 li {
@@ -43,10 +45,15 @@ li {
 }
 
 .border-right {
-    border-right: 1px dashed lightgrey;
-    border-top: 1px dashed lightgrey;
+    border-right: 1px dashed black;
+    border-top: 1px dashed black;
 }
 
 .border-left {
-    border-top: 1px dashed lightgrey;
+    border-left: 1px dashed black;
+    border-top: 1px dashed black;
+}
+
+.card-body {
+    background-color: greenyellow;
 }
